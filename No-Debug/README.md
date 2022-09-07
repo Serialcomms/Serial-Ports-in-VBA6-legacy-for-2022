@@ -5,7 +5,7 @@ All Main VBA port functions remain functionally equivalent.
 
 Port debug function remains for compatibility and always returns false.
 
-Cloned from https://github.com/serialcomms/Serial-Ports-in-VBA-new-for-2022.git and modified for VBA6
+Cloned from https://github.com/serialcomms/Serial-Ports-in-VBA-new-for-2022.git and modified for VBA6 usage
 
 * `LongPtr` references changed to `Long`
 
