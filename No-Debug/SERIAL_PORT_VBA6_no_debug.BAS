@@ -170,19 +170,23 @@ Public Function START_COM_PORT(Port_Number As Long, Optional Port_Setttings As S
 ' For example, to configure a baud rate of 1200, no parity, 8 data bits, and 1 stop bit, Port_Settings text is "baud=1200 parity=N data=8 stop=1"
 
 Dim Temp_Result As Boolean
-
+          
 If Port_Valid(Port_Number) And COM_PORT_CLOSED(Port_Number) Then
 
-    If OPEN_COM_PORT(Port_Number) And CONFIGURE_COM_PORT(Port_Number, Port_Setttings) Then
+    If OPEN_COM_PORT(Port_Number) Then
+    
+        If CONFIGURE_COM_PORT(Port_Number, Port_Setttings) Then
         
-        Temp_Result = True
-        PURGE_BUFFERS Port_Number
+            Temp_Result = True
+            PURGE_BUFFERS Port_Number
 
-    Else
+        Else
     
-        Temp_Result = False
-        STOP_COM_PORT Port_Number                           ' close com port if configure failed
+            Temp_Result = False
+            STOP_COM_PORT Port_Number                           ' close com port if configure failed
     
+        End If
+
     End If
 
 End If
