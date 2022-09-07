@@ -51,7 +51,9 @@ Optional steps for Excel only -
 - Remove comment mark before `Option Private Module` to prevent function names appearing in cell formula drop-down lists. 
 - Remove comment mark before `Application.Volatile` where indicated to refresh results when functions are used in cells and the worksheet is recalculated (e.g. with F9 key).
 
-Main user-defined functions are as follows. First parameter is a valid COM Port number on host. COM 1 is used here for example. Min/Max com port numbers are defined in the declarations section at the start of the module.
+Main user-defined functions are as follows. First parameter is a valid COM Port number on host. COM 1 is used here for example. 
+
+Min/Max com port numbers are defined in the declarations section at the start of the module.
 
 | VBA Function                         | Description                                                                                                   |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------|
