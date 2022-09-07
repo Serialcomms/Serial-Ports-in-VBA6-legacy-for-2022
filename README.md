@@ -1,4 +1,4 @@
-# VBA Serial Port routines for Microsoft Office
+# VBA Serial Port routines for Legacy Microsoft Windows and Office installations
 ## New for 2022 - Windows XP onwards, Pre-Office 2010 editions (Excel, Word, Access)
 
 Getting Serial (COM) Ports working as intended in VBA can be surprisingly difficult in certain usage scenarios. 
