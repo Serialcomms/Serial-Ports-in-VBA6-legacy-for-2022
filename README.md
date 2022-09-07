@@ -1,19 +1,17 @@
 # VBA Serial Port routines for Microsoft Office
-## New for 2022 - Windows 10, Office 2019 (Excel, Word, Access)
+## New for 2022 - Windows XP onwards, Pre-Office 2010 editions (Excel, Word, Access)
 
 Getting Serial (COM) Ports working as intended in VBA can be surprisingly difficult in certain usage scenarios. 
 
 The legacy nature of serial comms is such that many existing VBA solutions are now rather dated with references to defunct web sites etc. 
 
-These new VBA routines are a fresh start for 2022 and based largely on Microsoft's Win32 API calls and documentation. 
+These new VBA6 routines are a fresh start for 2022 and based largely on Microsoft's Win32 API calls and documentation. 
 
 Functions work in Excel, Word and Access (Windows versions only) with Macros enabled.
 
 No plug-ins, DLLs, ActiveX, licences, payments or registrations are required.  
 
-Developed on Windows 10 (64-Bit) with a local Microsoft Office 2019 Professional (32-Bit) installation.  
-
-Tested on Office 2016 Professional (64-bit) and Office 2019 Professional (32-Bit).
+Tested on Windows XP Pro, SP3 with vendor-bundled version of Microsoft Works Suite 2004
 
 Functions are straightforward to use and intended to help implement ad-hoc projects for serial data acquisition or transfer.
 Coding style supports infrequent VBA users and developers.
