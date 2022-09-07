@@ -34,7 +34,9 @@ The new functions address both of these issues, and also where data transfers ta
 
 Debugging can be set on/off per port with results shown in the VBA immediate window. 
 
-Extensive debug functionality makes several modules quite verbose. A far more compact version without debug is available in the No-Debug folder. 
+Extensive debug functionality makes several modules quite verbose. 
+
+A far more compact version without debug is available in the No-Debug folder. 
 
 Performance on a modern PC is good, with software timing delays required to allow the relatively slow serial com ports to catch up. 
 
