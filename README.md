@@ -19,7 +19,8 @@ Functions are straightforward to use and intended to help implement ad-hoc proje
 
 Coding style supports infrequent VBA users and developers.
 
-Standard in-built VBA functions to handle COM port data can suffer from two issues :-
+<details><summary>Standard in-built VBA functions to handle COM port data can suffer from two issues</summary>
+<p>
 
 1. Setting port parameters with the VBA open command may not work in some Windows versions e.g.
 
@@ -29,6 +30,9 @@ Standard in-built VBA functions to handle COM port data can suffer from two issu
 2. Attempting to read data when there is none waiting will cause VBA to hang with a 'not responding' message.  
   
    `Get #1, , Read_Data_Byte`  
+   
+</p>
+</details>   
   
 The new functions address both of these issues, and also where data transfers take longer than the 5-6 second VBA timeout.
 
