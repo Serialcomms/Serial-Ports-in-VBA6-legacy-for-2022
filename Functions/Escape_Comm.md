@@ -1,5 +1,5 @@
 
-| Value   | Action                 | Description                                                                        |
-| :-----: | :--------------------- | :--------------------------------------------------------------------------------- |
-| 3       | SET_DTR                |  Sets the outgoing DTR Signal On                                                   |
-| 4       | Clear_DTR              |  Clears the outgoing DTR Signal Off                                                |
+| Value   | Signal    | Action    | Description                                                                        |
+| :-----: | :--------:|-----------| :--------------------------------------------------------------------------------- |
+| 3       | DTR       | Set       |  Sets the outgoing DTR Signal On                                                   |
+| 4       | DTR       | Clear     |  Clears the outgoing DTR Signal Off                                                |
