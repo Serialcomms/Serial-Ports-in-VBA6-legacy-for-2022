@@ -19,9 +19,11 @@ Functions are straightforward to use and intended to help implement ad-hoc proje
 
 Coding style supports infrequent VBA users and developers.
 
-<details><summary>Standard in-built VBA functions to handle COM port data can suffer from two issues</summary>
+<details><summary>VBA Com Port function issues</summary>
 <p>
 
+The in-built VBA functions for COM Port data can suffer from the following issues :- 
+   
 1. Setting port parameters with the VBA open command may not work in some Windows versions e.g.
 
    `Open "COM1:9600,N,8,1" For Read Access As #1`       \
