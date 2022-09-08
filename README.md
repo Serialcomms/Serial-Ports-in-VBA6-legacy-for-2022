@@ -10,18 +10,6 @@ No plug-ins, DLLs, ActiveX, licences, payments or registrations are required.
 <details><summary>More Information</summary>
 <p>
    
-The legacy of serial comms means that many existing VBA solutions are now time-expired with links to defunct web sites etc.    
-
-New functions here are a fresh start for 2022 and are based largely on Microsoft's Win32 API calls and documentation. 
-   
-Cloned from https://github.com/serialcomms/Serial-Ports-in-VBA-new-for-2022.git and modified for VBA6.
-
-Minimal testing only on Windows XP Pro, SP3 with hardware vendor bundled version of Microsoft Word 2002.
-
-Functions are straightforward to use and intended to help implement ad-hoc projects for serial data acquisition or transfer.
-
-Coding style supports infrequent VBA users and developers.
-
 <details><summary>VBA Com Port function issues</summary>
 <p>
 
@@ -40,6 +28,20 @@ The in-built VBA functions for COM Port data can suffer from the following issue
    
 </p>
 </details>   
+   
+The legacy of serial comms means that many existing VBA solutions are now time-expired with links to defunct web sites etc.    
+
+New functions here are a fresh start for 2022 and are based largely on Microsoft's Win32 API calls and documentation. 
+   
+Cloned from https://github.com/serialcomms/Serial-Ports-in-VBA-new-for-2022.git and modified for VBA6.
+
+Minimal testing only on Windows XP Pro, SP3 with hardware vendor bundled version of Microsoft Word 2002.
+
+Functions are straightforward to use and intended to help implement ad-hoc projects for serial data acquisition or transfer.
+
+Coding style supports infrequent VBA users and developers.
+
+
   
 <details><summary>Debugging</summary>
 <p>
