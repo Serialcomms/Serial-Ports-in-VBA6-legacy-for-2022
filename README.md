@@ -31,11 +31,11 @@ Coding style supports infrequent VBA users and developers.
   
    `Get #1, , Read_Data_Byte`  
    
+   The new functions address both of these issues, and also where data transfers take longer than the 5-6 second VBA timeout.
+   
 </p>
 </details>   
   
-The new functions address both of these issues, and also where data transfers take longer than the 5-6 second VBA timeout.
-
 <details><summary>Debugging</summary>
 <p>
 
