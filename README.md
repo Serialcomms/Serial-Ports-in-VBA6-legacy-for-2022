@@ -51,7 +51,7 @@ Optional steps for Excel only -
 - Remove comment mark before `Option Private Module` to prevent function names appearing in cell formula drop-down lists. 
 - Remove comment mark before `Application.Volatile` where indicated to refresh results when functions are used in cells and the worksheet is recalculated (e.g. with F9 key).
 
-[Main user-defined functions] [Contribution guidelines for this project](Functions/Function_List.md)
+[Main user-defined functions](Functions/Function_List.md)
 
 Main user-defined functions are as follows. First parameter (1) is a valid COM Port number on host.
 
