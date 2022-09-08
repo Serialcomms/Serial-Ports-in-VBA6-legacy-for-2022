@@ -2,8 +2,6 @@
 
 Main user-defined functions are as follows. First parameter (1) is a valid COM Port number on host.
 
-Min/Max com port numbers are defined in the declarations section at the start of the module.
-
 | VBA Function                         | Description                                                                                                   |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------|
 | `debug_com_port(1)`                  | Toggles debug messaging on/off (debug results in VBA Immediate window)                                        |
