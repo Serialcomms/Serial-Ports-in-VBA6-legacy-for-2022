@@ -3,7 +3,7 @@
 
 Getting Serial (COM) Ports working as intended in VBA can be surprisingly difficult in certain usage scenarios. 
 
-New functions here work in Excel, Word and Access (Windows versions only) with Macros enabled.
+New VBA routines here work in Excel, Word and Access (Windows versions only) with Macros enabled.
 
 No plug-ins, DLLs, ActiveX, licences, payments or registrations are required.  
 
