@@ -12,7 +12,7 @@ No plug-ins, DLLs, ActiveX, licences, payments or registrations are required.
    
 The legacy of serial comms means that many existing VBA solutions are now time-expired with links to defunct web sites etc.    
 
-A fresh start for 2022, based largely on Microsoft's Win32 API calls and documentation. 
+New functions are a fresh start for 2022, based largely on Microsoft's Win32 API calls and documentation. 
    
 Cloned from https://github.com/serialcomms/Serial-Ports-in-VBA-new-for-2022.git and modified for VBA6.
 
