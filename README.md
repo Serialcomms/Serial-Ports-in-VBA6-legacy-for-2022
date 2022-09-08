@@ -7,6 +7,10 @@ New VBA routines here resolve the above in Excel, Word and Access (Windows versi
 
 No plug-ins, DLLs, ActiveX, licences, payments or registrations are required.  
 
+Functions are straightforward to use and coding style supports infrequent VBA users and developers.
+
+intended to help implement ad-hoc projects for serial data acquisition or transfer.
+
 <details><summary>More Information</summary>
 <p>
    
@@ -39,7 +43,6 @@ Minimal testing only on Windows XP Pro, SP3 with hardware vendor bundled version
 
 Functions are straightforward to use and intended to help implement ad-hoc projects for serial data acquisition or transfer.
 
-Coding style supports infrequent VBA users and developers.
 
 
   
