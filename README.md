@@ -35,7 +35,7 @@ The in-built VBA functions for COM Port data can suffer from the following issue
    
 The legacy of serial comms means that many online solution searches are now time-expired with links to defunct web sites etc.    
 
-New functions here are a fresh start for 2022 and are based largely on Microsoft's Win32 API calls and documentation. 
+New functions here are therefore a fresh start for 2022 and are based largely on Microsoft's Win32 API calls and documentation. 
    
 Cloned from https://github.com/serialcomms/Serial-Ports-in-VBA-new-for-2022.git and modified for VBA6.
 
