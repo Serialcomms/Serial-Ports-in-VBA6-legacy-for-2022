@@ -2,6 +2,7 @@
 
 Main user-defined functions are as follows. 
 
+
 First parameter (1) is a valid COM Port number on host.
 
 | VBA Function                         | Description                                                                                                   |
