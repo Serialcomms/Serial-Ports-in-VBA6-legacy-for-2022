@@ -11,7 +11,7 @@ Functions work in Excel, Word and Access (Windows versions only) with Macros ena
 
 No plug-ins, DLLs, ActiveX, licences, payments or registrations are required.  
 
-<details><summary>Further Information</summary>
+<details><summary>More Information</summary>
 <p>
 
 Cloned from https://github.com/serialcomms/Serial-Ports-in-VBA-new-for-2022.git and modified for VBA6.
