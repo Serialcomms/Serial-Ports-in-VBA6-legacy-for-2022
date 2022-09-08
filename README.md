@@ -3,9 +3,7 @@
 
 Getting Serial (COM) Ports working as intended in VBA can be surprisingly difficult in certain usage scenarios. 
 
-The legacy nature of serial comms is such that many existing VBA solutions are now rather dated with references to defunct web sites etc. 
-
-These new VBA6 routines are a fresh start for 2022 and based largely on Microsoft's Win32 API calls and documentation. 
+A fresh start for 2022, based largely on Microsoft's Win32 API calls and documentation. 
 
 Functions work in Excel, Word and Access (Windows versions only) with Macros enabled.
 
@@ -13,6 +11,8 @@ No plug-ins, DLLs, ActiveX, licences, payments or registrations are required.
 
 <details><summary>More Information</summary>
 <p>
+   
+The legacy nature of serial comms is such that many existing VBA solutions are now rather dated with references to defunct web sites etc.    
 
 Cloned from https://github.com/serialcomms/Serial-Ports-in-VBA-new-for-2022.git and modified for VBA6.
 
