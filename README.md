@@ -11,6 +11,9 @@ Functions work in Excel, Word and Access (Windows versions only) with Macros ena
 
 No plug-ins, DLLs, ActiveX, licences, payments or registrations are required.  
 
+<details><summary>Further Information</summary>
+<p>
+
 Cloned from https://github.com/serialcomms/Serial-Ports-in-VBA-new-for-2022.git and modified for VBA6.
 
 Minimal testing only on Windows XP Pro, SP3 with hardware vendor bundled version of Microsoft Word 2002.
@@ -68,7 +71,7 @@ Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains respons
 </p>
 </details>
 
-
-
 [Main user-defined functions](Functions/Function_List_All.md)
 
+</p>
+</details>   
