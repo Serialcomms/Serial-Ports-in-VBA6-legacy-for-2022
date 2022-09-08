@@ -58,9 +58,9 @@ Min/Max com port numbers are defined in the declarations section at the start of
 | VBA Function                         | Description                                                                                                   |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------|
 | `debug_com_port(1)`                  | Toggles debug messaging on/off (debug results in VBA Immediate window)                                        |
-| `debug_com_port(1,True)`             | Set port debug messaging on                                                                                   |          
-| `debug_com_port(1,False)`            | Set port debug messaging off                                                                                  |  
-| `start_com_port(1)`                  | Starts port with existing settings. Returns `True` if successful, `False` if start fails for any reason.      | 
+| `debug_com_port(1,True)`             | Set port debug messaging on                                                                                   |
+| `debug_com_port(1,False)`            | Set port debug messaging off                                                                                  |
+| `start_com_port(1)`                  | Starts port with existing settings. Returns `True` if successful, `False` if start fails for any reason.      |
 | `start_com_port(1,"Baud=1200")`      | Starts port with settings as supplied. Returns `True` or `False` as above.                                    |
 | `start_com_port(1,SCANNER)`          | Starts port with settings defined in VBA string constant or variable e.g. SCANNER                             |
 | `check_com_port(1)`                  | Returns number of input characters waiting to be read (no delay). Return value -1 indicates error.            |
