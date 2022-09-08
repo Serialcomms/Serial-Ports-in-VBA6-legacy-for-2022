@@ -3,7 +3,7 @@
 
 Getting Serial (COM) Ports working as intended in VBA can be surprisingly difficult in certain usage scenarios. 
 
-New VBA routines here resolve the above in Excel, Word and Access (Windows versions only, Macros enabled).
+New VBA routines here will help resolve the above in Excel, Word and Access (Windows versions only, Macros enabled).
 
 Functions are straightforward to use and coding style supports infrequent VBA users and developers.
 
