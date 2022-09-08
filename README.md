@@ -36,11 +36,18 @@ Coding style supports infrequent VBA users and developers.
   
 The new functions address both of these issues, and also where data transfers take longer than the 5-6 second VBA timeout.
 
-Debugging can be set on/off per port with results shown in the VBA immediate window. 
+<details><summary>Debugging</summary>
+<p>
 
-Extensive debug functionality makes several modules quite verbose. 
+* Debugging can be set on/off per port with results shown in the VBA immediate window. 
 
-A far more compact version without debug is available in the No-Debug folder. 
+* Extensive debug functionality makes several modules quite verbose. 
+
+* A far more compact version without debug is available in the No-Debug folder. 
+
+</p>
+</details>   
+
 
 Performance on a modern PC is good, with software timing delays required to allow the relatively slow serial com ports to catch up. 
 
