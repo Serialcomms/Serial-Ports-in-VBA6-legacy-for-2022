@@ -1,7 +1,7 @@
 ### VBA functions to check and set port signals.
 
 
-First parameter (1) is a valid[^1] and started COM Port number on host.
+First parameter (1) is a valid[^1] and started COM Port number on host PC
 
 | VBA Function                  | Signal | Description                                                                                                   |
 | ------------------------------|------- | --------------------------------------------------------------------------------------------------------------|
