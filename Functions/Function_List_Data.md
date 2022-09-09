@@ -1,4 +1,5 @@
-Main user-defined Data functions are as follows. First parameter (1) is a valid COM Port number on host.
+Main user-defined functions to send and receive Data are as follows. 
+First parameter (1) is a valid and Started COM Port number on host PC.
 
 | VBA Function                         | Description                                                                                                   |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------|
