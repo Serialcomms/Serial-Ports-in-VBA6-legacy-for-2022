@@ -1,4 +1,5 @@
-### VBA functions to send, receive and check for data
+# VBA functions to 
+### send, receive and check for data
 
 First parameter (1) is a Valid[^1] and Started COM Port number on host PC.
 
