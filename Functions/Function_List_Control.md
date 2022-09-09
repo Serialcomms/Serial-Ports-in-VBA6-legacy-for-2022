@@ -13,4 +13,5 @@ First parameter (1) is a valid[^1] COM Port number on host.
 
 * Debug results are shown in the VBA Immediate Window (Control-G)
 
-[^1]: Valid is
+[^1]: Valid Minimum and Maximum port numbers should be defined in declarations section at the start of the module. 
+  
