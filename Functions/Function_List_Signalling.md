@@ -12,7 +12,7 @@ First parameter (1) is a valid[^1] COM Port number on host PC
 | `carrier_detect(1)`           | CD     | Carrier Detect / Receive Line Signal Detect  |    1    |    8     |
 | `clear_to_send(1)`            | CTS    | Clear To Send                                |    8    |    5     | 
  
- * Functions return True if port valid, started and input signal active.
+ * Functions return True if port valid, started, input signal active and Windows GetCommModemStatus returns True
 
 #### Output signals[^2]
 
