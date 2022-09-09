@@ -18,9 +18,10 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC
  |------------------------------|------- | ----------------------------------------|
 | `request_to_send(1,1)`        | RTS    | Sets Request To Send                    |
 | `request_to_send(1,0)`        | RTS    | Clears Request To Send                  |
-| `signal_com_port(1,signal)`   |        | Set/clear BREAK, DTR, RTS output signals, see - [Escape Comm Function signal values](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction)
+| `signal_com_port(1,signal)`   |        | Set/clear BREAK, DTR, RTS output signals, [^2]:
 
 
 #### Output signals
 
 [^1]: valid
+[^2]: see - [Escape Comm Function signal values](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction)
