@@ -2,7 +2,7 @@ functions to send, receive and check for Data are as follows.
 
 First parameter (1) is a valid and Started COM Port number on host PC.
 
-| VBA Function                    | Timesliced | Description                                                                                                   |
+| VBA Function                    | TS | Description                                                                                                   |
 | --------------------------------|:---------: | --------------------------------------------------------------------------------------------------------------|
 | `check_com_port(1)`             |    No      | Returns number of input characters waiting to be read (no delay). Return value -1 indicates error.            |
 | `wait_com_port(1)`              |    Yes     | Wait for up to 333mS (default) before timing out. Returns `True` if receive data waiting.                     |
