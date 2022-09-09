@@ -1,5 +1,4 @@
-1
-First parameter (1) is a valid[^1] COM Port number on host.
+First parameter (1) is a valid[^1] COM Port number on host PC
 
 | VBA Function                         | Description                                                                                                   |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------|
