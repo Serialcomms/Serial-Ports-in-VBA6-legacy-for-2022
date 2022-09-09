@@ -6,7 +6,7 @@
 First parameter (1) is a valid[^1] COM Port number on host PC
 
 | VBA Function                  | Signal | Description                                  | DB9 Pin | DB25 Pin | 
-| ------------------------------|------- | ---------------------------------------------|---------|----------|
+| ------------------------------|------- | ---------------------------------------------|:-------:|----------|
 | `device_ready(1)`             | DSR    | Data Set Ready                               |    6    |          |
 | `device_calling(1)`           | RI     | Ring Indicate                                |    9    |          |
 | `carrier_detect(1)`           | CD     | Carrier Detect / Receive Line Signal Detect  |    1    |          |
@@ -19,7 +19,7 @@ First parameter (1) is a valid[^1] COM Port number on host PC
 First parameter (1) is a valid[^1] COM Port number on host PC
 
 | VBA Function                  | Signal | Action | Description                          | DB9 Pin | DB25 Pin | 
-| ------------------------------|------- | -------|--------------------------------------|---------|----------|
+| ------------------------------|------- | -------|--------------------------------------|:-------:|----------|
 | `request_to_send(1,0)`        | RTS    |  Clear | Request To Send                      |    7    |          |
 | `request_to_send(1,1)`        | RTS    |  Send  | Request To Send                      |    7    |          |
 | `signal_com_port(1,1)`        | XOFF   |  Send  | Flow Control Off                     |    -    |          |
