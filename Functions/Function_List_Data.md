@@ -11,10 +11,11 @@ First parameter (1) is a Valid[^1] and Started COM Port number on host PC.
 | `put_com_port(1,"A")`           | No   | Sends a single-character string.                                                                              |
 | `read_com_port(1,20)`           | No   | Reads up to[^2] specified number (20) of characters. No delay before or after read.                           |
 | `send_com_port(1,V)`            | Yes  | Sends variable V. Function converts V to string and calls `transmit_com_port`.                                |
-| `receive_com_port(1)`           | Yes  | Receives all data from port                                                                                   |
+| `receive_com_port(1)`           | Yes  | Receives all data from port[^3]                                                                               |
 | `transmit_com_port(1,"QWERTY")` | Yes  | Sends supplied string to port                                                                                 |
 
 * Functions shown as TS=Yes are timesliced to avoid VBA hanging with a 'not responding' message.
 [^1]:  Valid Minimum and Maximum port numbers should be defined in declarations section at the top of the module. 
 [^2]:  Maximum number characters read is approximately com port baud rate / 10 , i.e. maximum of 1 second read time. 
+[^3]:  Function includes wait and exit counters and timers.
 
