@@ -57,7 +57,7 @@ Minimal testing only on Windows XP Pro, SP3 with hardware vendor bundled version
 <details><summary>COM Ports</summary>
 <p>
 
-Multiple com ports are supported, including physical hardware ports and virtual software ports. 
+Multiple com ports are supported, including physical hardware ports and synthetic virtual software ports. 
 
 All read and write functions are synchronous, in part because not all serial port types support overlapped operation.
 
