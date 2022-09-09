@@ -1,6 +1,6 @@
 ### VBA functions to send, receive and check for data
 
-First parameter (1) is a valid and Started COM Port number on host PC.
+First parameter (1) is a Valid and Started COM Port number on host PC.
 
 | VBA Function                    |  TS  | Description                                                                                                     |
 | --------------------------------|:----:| --------------------------------------------------------------------------------------------------------------|
