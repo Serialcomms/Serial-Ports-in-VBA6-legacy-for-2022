@@ -80,7 +80,10 @@ Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains respons
 <details><summary>Function List</summary>
 <p>   
 
-[Main user-defined functions](Functions/Function_List_All.md)
+[Port Control](Functions/Function_Control.md)
+[Port Read/Write Data](Functions/Function_Data.md)
+[Port Signalling Functions](Functions/Function_Signalling.md)
+[Main user-defined functions](Functions/Function_List_All.md)   
 
 </p>
 </details>   
