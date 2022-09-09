@@ -11,7 +11,8 @@ First parameter (1) is a valid[^1] COM Port number on host PC
 | `stop_com_port(1)`                   | Stops port and hands its control back to Windows.                                                             |
 
 * Debug results are shown in the VBA Immediate Window (Control-G)
-* Functions return `True` or `False` to indicate success or failure
+* Debug functions return `True` or `False` to indicate debug state
+* Other functions return `True` or `False` to indicate success or failure
 
 [^1]: Valid Minimum and Maximum port numbers should be defined in declarations section at the start of the module. 
   
