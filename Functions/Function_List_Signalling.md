@@ -31,5 +31,7 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC
 | `signal_com_port(1,8)`        | BREAK  |  Set   | Request To Send           |
 | `signal_com_port(1,9)`        | BREAK  |  Clear | Request To Send           |
 
+ * Functions return True if port valid and started 
+
 [^1]: valid
 [^2]: see - [Escape Comm Function signal values](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction)
