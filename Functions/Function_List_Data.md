@@ -15,7 +15,7 @@ First parameter (1) is a Valid[^1] and Started COM Port number on host PC.
 | `receive_com_port(1)`           | Yes  | Receives all data from port[^3]                                                                               |
 | `transmit_com_port(1,"QWERTY")` | Yes  | Sends supplied string to port                                                                                 |
 
-* Functions shown as TS=No will return within a few milliseconds. 
+* Functions shown as TS=No return within a few milliseconds. 
 * Functions shown as TS=Yes are timesliced to avoid VBA hanging with a 'not responding' message.
 
 [^1]:  Valid Minimum and Maximum port numbers should be defined in declarations section at the start of the module. 
