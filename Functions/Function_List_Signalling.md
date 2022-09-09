@@ -19,7 +19,7 @@ First parameter (1) is a valid[^1] COM Port number on host PC
 First parameter (1) is a valid[^1] COM Port number on host PC
 
 | VBA Function                  | Signal | Action | Description                          | DB9 Pin | DB25 Pin | 
-| ------------------------------|------- | -------|--------------------------------------|:-------:|----------|
+| ------------------------------|------- | -------|--------------------------------------|:-------:|:--------:|
 | `request_to_send(1,0)`        | RTS    |  Clear | Request To Send                      |    7    |    4     |
 | `request_to_send(1,1)`        | RTS    |  Send  | Request To Send                      |    7    |    4     |
 | `signal_com_port(1,1)`        | XOFF   |  Send  | Flow Control Off                     |    -    |    -     |
