@@ -76,8 +76,14 @@ Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains respons
 
 </p>
 </details>
+   
+<details><summary>Function List</summary>
+<p>   
 
 [Main user-defined functions](Functions/Function_List_All.md)
 
 </p>
+</details>   
+   
+ </p>
 </details>   
