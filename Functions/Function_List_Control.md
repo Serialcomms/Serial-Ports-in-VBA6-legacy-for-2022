@@ -1,4 +1,7 @@
-## VBA functions to start, stop and debug COM ports
+
+# VBA Serial Port Functions
+
+## start, stop and debug COM ports
 
 First parameter (1) is a valid[^1] COM Port number on host PC
 
