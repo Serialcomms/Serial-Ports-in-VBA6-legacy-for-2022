@@ -19,7 +19,7 @@ First parameter (1) is a Valid[^1] and Started COM Port number on host PC.
 * Functions shown as TS=Yes are timesliced to avoid VBA hanging with a 'not responding' message.
 
 [^1]:  Valid Minimum and Maximum port numbers should be defined in declarations section at the start of the module. 
-[^2]:  Maximum number of characters read is approximately (baud rate / 10)    
+[^2]:  Maximum number of characters read is approximately = (baud rate / 10)    
        Function can block for up to 1 second before returning.  
        Further characters beyond this may remain awaiting to be read.
 [^3]:  Function includes wait and exit counters and timers.   
