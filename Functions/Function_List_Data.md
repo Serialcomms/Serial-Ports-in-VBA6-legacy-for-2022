@@ -20,6 +20,7 @@ First parameter (1) is a Valid[^1] and Started COM Port number on host PC.
 
 [^1]:  Valid Minimum and Maximum port numbers should be defined in declarations section at the start of the module. 
 [^2]:  Maximum number of characters read is approximately com port baud rate / 10    
-       Function may block for up to 1 second before returning.  
+       Function may block for up to 1 second before returning.
+       Further characters beyond this may remain awaiting to be read.
 [^3]:  Function includes wait and exit counters and timers.
 
