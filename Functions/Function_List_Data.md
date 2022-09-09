@@ -15,7 +15,7 @@ First parameter (1) is a Valid[^1] and Started COM Port number on host PC.
 | `transmit_com_port(1,"QWERTY")` | Yes  | Sends supplied string to port                                                                                 |
 
 * Functions shown as TS=Yes are timesliced to avoid VBA hanging with a 'not responding' message.
-[^1]:  Valid Minimum and Maximum port numbers should be defined in declarations section at the top of the module. 
+[^1]:  Valid Minimum and Maximum port numbers should be defined in declarations section at the start of the module. 
 [^2]:  Maximum number characters read is approximately com port baud rate / 10 , i.e. maximum of 1 second read time. 
 [^3]:  Function includes wait and exit counters and timers.
 
