@@ -1,7 +1,7 @@
 # VBA Serial Port Functions
 ## send, receive, wait and check for data
 
-First parameter (1) is a Valid[^1] and Started COM Port number on host PC.
+First parameter (1) is a valid[^1] and started COM Port number on host PC.
 
 | VBA Function                    |  TS  | Description                                                                                                   |
 | :-------------------------------|:----:| :-------------------------------------------------------------------------------------------------------------|
