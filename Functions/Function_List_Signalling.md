@@ -7,7 +7,7 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC
 | ------------------------------|------- | --------------------------------------------------------------------------------------------------------------|
 | `device_ready(1)`             | DSR    | Data Set Ready                               |
 | `device_calling(1)`           | RI     | Ring Indicate                                   |
-| `carrier_detect(1)`           | CD     | Carrier Detect (Receive Line Signal Detect)                              |
+| `carrier_detect(1)`           | CD     | Carrier Detect / Receive Line Signal Detect                           |
 | `clear_to_send(1)`            | CTS    | Clear To Send                                |
 | `request_to_send(1,1)`        | RTS    | Sets Request To Send                    |
 | `request_to_send(1,0)`        | RTS    | Clears Request To Send                  |
