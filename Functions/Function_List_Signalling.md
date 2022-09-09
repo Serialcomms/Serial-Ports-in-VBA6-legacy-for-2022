@@ -14,8 +14,9 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC
  
  * Functions return True if port valid, started and input signal active.
 
-#### Output signals
+#### Output signals[^2]
 
+First parameter (1) is a valid[^1] and started COM Port number on host PC
 
 | VBA Function                  | Signal | Action | Description               |
 | ------------------------------|------- | -------|---------------------------|
