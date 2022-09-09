@@ -13,7 +13,7 @@ First parameter (1) is a Valid[^1] and Started COM Port number on host PC.
 | `read_com_port(1,20)`           | No   | Reads up to[^2] specified number (20) of characters. No delay before or after read.                           |
 | `send_com_port(1,V)`            | Yes  | Sends variable V. Function converts V to string and calls `transmit_com_port`.                                |
 | `receive_com_port(1)`           | Yes  | Receives all data from port[^3]                                                                               |
-| `transmit_com_port(1,"QWERTY")` | Yes  | Sends supplied string to port                                                                                 |
+| `transmit_com_port(1,"QWERTY")` | Yes  | Sends supplied string QWERTY to port                                                                          |
 | `transmit_com_port(1,COMMANDS)` | Yes  | Sends supplied string constant or variable COMMANDS to port                                                   |
 
 * Functions shown as TS=No return within a few milliseconds. 
