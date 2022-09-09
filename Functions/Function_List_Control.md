@@ -11,5 +11,3 @@ First parameter (1) is a valid COM Port number on host.
 | `start_com_port(1,SCANNER)`          | Starts port with settings defined in VBA string constant or variable e.g. SCANNER                             |
 | `stop_com_port(1)`                   | Stops port and hands its control back to Windows.                                                             |
 
-Other Public functions such as `show_port_errors(1)` etc. should only be used in the Immediate window for further information if required.
-Private functions are not intended to be called directly by users.
