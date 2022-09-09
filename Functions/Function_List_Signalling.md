@@ -14,16 +14,20 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC
  
  * Functions return True if port valid, started and input signal active.
 
-
-
-| VBA Function                  | Signal | Action | Description                    |
-| ------------------------------|------- | -------|--------------------------------|
-| `request_to_send(1,1)`        | RTS    |  Set   | Sets Request To Send           |
-| `request_to_send(1,0)`        | RTS    |  Clear | Clears Request To Send         |
-| `signal_com_port(1,signal)`   |        |        | Set/clear BREAK, DTR, RTS output signals, [^2]:
-
-
 #### Output signals
+
+
+| VBA Function                  | Signal | Action | Description               |
+| ------------------------------|------- | -------|---------------------------|
+| `request_to_send(1,1)`        | RTS    |  Set   | Request To Send           |
+| `request_to_send(1,0)`        | RTS    |  Clear | Request To Send           |
+| `signal_com_port(1,3)`        | RTS    |  Set   | Request To Send           |
+| `signal_com_port(1,4)`        | RTS    |  Clear | Request To Send           |
+| `signal_com_port(1,5)`        | DTR    |  Set   | Data Terminal Ready       |
+| `signal_com_port(1,6)`        | DTR    |  Clear | Data Terminal Ready       |
+| `signal_com_port(1,8)`        | BREAK  |  Set   | Request To Send           |
+| `signal_com_port(1,9)`        | BREAK  |  Clear | Request To Send           |
+| `signal_com_port(1,9)`        | RTS    |  Set   | Request To Send           |
 
 [^1]: valid
 [^2]: see - [Escape Comm Function signal values](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction)
