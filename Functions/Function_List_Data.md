@@ -22,6 +22,6 @@ First parameter (1) is a Valid[^1] and Started COM Port number on host PC.
 [^2]:  Maximum number of characters read is approximately com port baud rate / 10    
        Function can block for up to 1 second before returning.  
        Further characters beyond this may remain awaiting to be read.
-[^3]:  Function includes wait and exit counters and timers.
+[^3]:  Function includes wait and exit counters and timers.   
        Function can block for extended periods with VBA remaining responsive before returning.
 
