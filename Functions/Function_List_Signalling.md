@@ -14,11 +14,13 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC
  
  * Functions return True if port valid, started and input signal active.
 
-| VBA Function                  | Signal | Description                             |
- |------------------------------|------- | ----------------------------------------|
-| `request_to_send(1,1)`        | RTS    | Sets Request To Send                    |
-| `request_to_send(1,0)`        | RTS    | Clears Request To Send                  |
-| `signal_com_port(1,signal)`   |        | Set/clear BREAK, DTR, RTS output signals, [^2]:
+
+
+| VBA Function                  | Signal | Action | Description                    |
+| ------------------------------|------- | -------|--------------------------------|
+| `request_to_send(1,1)`        | RTS    |  Set   | Sets Request To Send           |
+| `request_to_send(1,0)`        | RTS    |  Clear | Clears Request To Send         |
+| `signal_com_port(1,signal)`   |        |        | Set/clear BREAK, DTR, RTS output signals, [^2]:
 
 
 #### Output signals
