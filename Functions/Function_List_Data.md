@@ -1,4 +1,4 @@
-Main user-defined functions to send and receive Data are as follows. 
+Main user-defined functions to send, receive and check for Data are as follows. 
 
 First parameter (1) is a valid and Started COM Port number on host PC.
 
