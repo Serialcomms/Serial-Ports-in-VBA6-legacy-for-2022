@@ -1,4 +1,6 @@
-### VBA functions to check and set port signals.
+# VBA Serial Port Functions
+
+## check and set port signals.
 
 #### Input signals
 
