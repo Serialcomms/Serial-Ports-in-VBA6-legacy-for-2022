@@ -1,6 +1,7 @@
-### VBA functions to check and set Com port signals.
+### VBA functions to check and set port signals.
 
-Main user-defined port Signalling functions are as follows. First parameter (1) is a valid COM Port number on host.
+
+First parameter (1) is a valid[^1] COM Port number on host.
 
 | VBA Function                  | Signal | Description                                                                                                   |
 | ------------------------------|------- | --------------------------------------------------------------------------------------------------------------|
@@ -11,3 +12,5 @@ Main user-defined port Signalling functions are as follows. First parameter (1) 
 | `request_to_send(1,1)`        | RTS    | Sets Request To Send (RTS) output signal. Returns `True` if port started and RTS set                          |
 | `request_to_send(1,0)`        | RTS    | Clears Request To Send (RTS) output signal. Returns `True` if port started and RTS cleared                    |
 | `signal_com_port(1,signal)`   |        | Set/clear BREAK, DTR, RTS output signals, see - [Escape Comm Function signal values](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-escapecommfunction)
+
+[^1]: valid
