@@ -14,6 +14,7 @@ First parameter (1) is a Valid[^1] and Started COM Port number on host PC.
 | `send_com_port(1,V)`            | Yes  | Sends variable V. Function converts V to string and calls `transmit_com_port`.                                |
 | `receive_com_port(1)`           | Yes  | Receives all data from port[^3]                                                                               |
 | `transmit_com_port(1,"QWERTY")` | Yes  | Sends supplied string to port                                                                                 |
+| `transmit_com_port(1,COMMANDS)` | Yes  | Sends supplied string constant or variable COMMANDS to port                                                   |
 
 * Functions shown as TS=No return within a few milliseconds. 
 * Functions shown as TS=Yes are timesliced to avoid VBA hanging with a 'not responding' message.
