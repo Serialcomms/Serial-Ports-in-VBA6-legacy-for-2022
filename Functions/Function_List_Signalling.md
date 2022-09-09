@@ -3,7 +3,7 @@
 #### Input signals
 
 
-First parameter (1) is a valid[^1] and started COM Port number on host PC
+First parameter (1) is a valid[^1] COM Port number on host PC
 
 | VBA Function                  | Signal | Description                                  |
 | ------------------------------|------- | ---------------------------------------------|
@@ -16,7 +16,7 @@ First parameter (1) is a valid[^1] and started COM Port number on host PC
 
 #### Output signals[^2]
 
-First parameter (1) is a valid[^1] and started COM Port number on host PC
+First parameter (1) is a valid[^1] COM Port number on host PC
 
 | VBA Function                  | Signal | Action | Description                          |
 | ------------------------------|------- | -------|--------------------------------------|
