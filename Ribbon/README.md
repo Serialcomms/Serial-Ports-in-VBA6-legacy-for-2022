@@ -1,1 +1,3 @@
 ## Ribbon Customisation
+
+Adding custom Ribbon tabs and commands requires the use of a custom editor such as ...
