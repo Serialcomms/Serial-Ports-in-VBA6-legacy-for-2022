@@ -85,9 +85,10 @@ Reading, Writing and Waiting are 'timesliced' to ensure that VBA remains respons
 <details><summary>Optional Ribbon Customisation</summary>
 <p>
 
-Office XML and SERIAL_PORT_RIBBON.bas files are available in the Ribbon folder.   
-The [Office RibbonX Editor](https://github.com/fernandreu/office-ribbonx-editor/releases/tag/v1.9.0) is recommended.  
- 
+Office XML and SERIAL_PORT_RIBBON.bas files are available in the Ribbon folder. 
+   
+The [Office RibbonX Editor](https://github.com/fernandreu/office-ribbonx-editor/releases/tag/v1.9.0) is recommended. 
+    
 </p>
 </details>   
    
