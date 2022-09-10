@@ -10,10 +10,12 @@ Further information can be found online by searching for *msoImage*
 
 Custom icons can also be added, ... (Microsoft commandbars.getimage link to add) ...
 
-
-#### VBA Development
+#### Ribbon Examples
 
 Examples are provided in module SERIAL_RIBBON.bas showing how to call functions from the Ribbon.
+
+
+#### VBA Development
 
 Further VBA development is required to ...
 
