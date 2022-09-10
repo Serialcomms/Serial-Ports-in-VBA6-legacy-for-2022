@@ -13,6 +13,8 @@ Custom icons can also be added, ... (Microsoft commandbars.getimage link to add)
 
 #### VBA Development
 
+Examples are provided in module SERIAL_RIBBON.bas showing how to call functions from the Ribbon.
+
 Further VBA development is required to ...
 
 
