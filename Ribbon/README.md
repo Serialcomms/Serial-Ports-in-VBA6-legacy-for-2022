@@ -8,3 +8,9 @@ A list of Icons included with Office is published here ...
 
 Custom icons can also be added, ... (Microsoft commandbars.getimage link to add) ...
 
+
+#### VBA Development
+
+Further VBA development is required to ...
+
+
