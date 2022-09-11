@@ -25,7 +25,8 @@
 21. Check that a new module SERIAL_PORT_RIBBON is created and visible in the Modules folder. 
 22. Close and return to Office application (Alt-Q)
 23. IMPORTANT - save document as type Macro-Enabled with a file name of your choice.
-24. IMPORTANT - test here assumes COM Port 1 is available. 
-25. Change line `Const Number As Long = 1` at start of SERIAL_PORT_RIBBON if required 
+24. IMPORTANT - test here assumes COM Port number 1 is available. 
+25. Change line `Const Number As Long = 1` at start of SERIAL_PORT_RIBBON to another port number if required 
 26. Re-select tab COM Port 1 and click the Start icon
-27. Confirm that message Start Res
+27. Confirm that message Start Result=True is displayed. 
+28. Test other icons with a second device attached to the COM Port. 
