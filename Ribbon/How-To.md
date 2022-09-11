@@ -15,4 +15,7 @@
 11. Re-open the Office document as normal
 12. Confirm that a new tab **COM 1** is present in the document ribbon menu.
 13. Confirm that the new tab contains icons similar to the image in this folder.
-14. 
+14. Select tab COM Port 1 and click the Start icon
+15. Confirm that message 'Cannot run the macro COM_PORT_CONTROL_1' appears
+16. Download the file SERIAL_PORT_RIBBON.bas from this folder
+17. 
