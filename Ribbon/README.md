@@ -24,7 +24,7 @@ Ribbon Office icons can be changed by editing the required XML file section in R
 
 Custom icons can also be added from RibbonX. Use the **Insert > Icons** menu option to add a new icon to the document. 
 
-Ribbon Custom icons can be changed by editing the required XML file section in RibbonX, e.g. `image="MyPrivateIconName"` 
+Ribbon Custom icons can be changed by editing the required XML file section in RibbonX, e.g. `image="MyCustomIconName"` 
 
 The following image filetypes are can be used. Image size should be between 16 x 16 to 128 x 128 
 
