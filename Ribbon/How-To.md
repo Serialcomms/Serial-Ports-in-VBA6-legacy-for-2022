@@ -18,4 +18,14 @@
 14. Select tab COM Port 1 and click the Start icon
 15. Confirm that message 'Cannot run the macro COM_PORT_CONTROL_1' appears
 16. Download the file SERIAL_PORT_RIBBON.bas from this folder
-17. 
+17. Enter the VBA Environment (Alt-F11)
+18. From VBA Environment, view the Project Explorer (Control-R)
+19. From Project Explorer, right-hand click and select Import File.
+20. Import the file SERIAL_PORT_RIBBON.bas
+21. Check that a new module SERIAL_PORT_RIBBON is created and visible in the Modules folder. 
+22. Close and return to Office application (Alt-Q)
+23. IMPORTANT - save document as type Macro-Enabled with a file name of your choice.
+24. IMPORTANT - test here assumes COM Port 1 is available. 
+25. Change line `Const Number As Long = 1` at start of SERIAL_PORT_RIBBON if required 
+26. Re-select tab COM Port 1 and click the Start icon
+27. Confirm that message Start Res
