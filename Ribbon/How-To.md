@@ -4,8 +4,8 @@
 
 Steps below assume that 
 
+* _COM Port 1 is available for use on the PC - see step 25 to change to another port number_
 * _The Office document to be customised has previously had the SERIAL_PORT_VBA module installed and tested._
-* _COM Port 1 is available for use on the PC_
 
 1. Close all Office documents before continuing.
 2. Open the required Office document in the RibbonX Editor.
