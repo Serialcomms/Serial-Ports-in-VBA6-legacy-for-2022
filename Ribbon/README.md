@@ -3,7 +3,7 @@
 #### Adding custom Ribbon tabs and commands
 
 The [Office RibbonX Editor](https://github.com/fernandreu/office-ribbonx-editor/releases/tag/v1.9.0) is recommended for Ribbon customisation.  
-Download and install it following the instructions provided with it.
+Download and install it following the instructions provided with it.  
 Download the file RIBBON_2007.xml from this folder in preparation for use.
 
 #### Office Icons
@@ -15,10 +15,10 @@ Further information can be found online by searching for *msoImage*
 Custom icons can also be added, ... (Microsoft commandbars.getimage link to add) ...
 The following image filetypes are can be used. Image size should be between 16*16 to 128 to 128 *(check this before commit)*
 
- .bmp
+ .bmp  
  .gif 
- .jpg
- .png
+ .jpg  
+ .png  
 
 #### Ribbon Examples
 
