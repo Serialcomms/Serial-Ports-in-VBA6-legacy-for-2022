@@ -33,7 +33,7 @@ The following image filetypes are can be used. Image size should be between 16*1
  .jpg  
  .png  
 
-Check online for futher information on supported icon types and sizes for your Office version.
+Check online for further information on supported icon types and sizes for your Office version.
 
 #### VBA Development
 
