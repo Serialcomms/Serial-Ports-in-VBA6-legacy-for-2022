@@ -2,7 +2,10 @@
 
 ## Using the RibbonX Editor
 
-_Steps below assume that the Office document to be customised has previously had the SERIAL_PORT_VBA module installed and tested._
+Steps below assume that 
+
+* _The Office document to be customised has previously had the SERIAL_PORT_VBA module installed and tested._
+* _COM Port 1 is available for use on the PC_
 
 1. Close all Office documents before continuing.
 2. Open the required Office document in the RibbonX Editor.
@@ -27,7 +30,7 @@ _Steps below assume that the Office document to be customised has previously had
 21. Check that a new module **SERIAL_PORT_RIBBON** is created and visible in the Modules folder. 
 22. Close and return to Office application (Alt-Q)
 23. IMPORTANT - save document as type Macro-Enabled with a file name of your choice.
-24. IMPORTANT - test here **assumes COM Port number 1 is available on the PC** 
+24. IMPORTANT - test here assumes **COM Port number 1 is available** on the PC 
 25. Change line **`Const Number As Long = 1`** at start of SERIAL_PORT_RIBBON to another port number if required 
 26. Re-select tab **COM Port 1** and click the **Start** icon
 27. Confirm that message **Start Result=True** is displayed. 
