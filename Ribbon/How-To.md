@@ -2,7 +2,7 @@
 
 ## Using the RibbonX Editor
 
-Steps below assume that the Office document to be customised has previously had the SERIAL_PORT_VBA module installed and tested.
+_Steps below assume that the Office document to be customised has previously had the SERIAL_PORT_VBA module installed and tested._
 
 1. Close all Office documents before continuing.
 2. Open the required Office document in the RibbonX Editor.
