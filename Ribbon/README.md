@@ -18,22 +18,22 @@ A list of icons included with Office is available here [Microsoft Office Icon Ga
 
 Further information can be found online by searching for *msoImage*
 
-Ribbon icons can be changed by editing the required XML file section in RibbonX, e.g. `imageMso="NewOfficeIconName"` 
+Ribbon Office icons can be changed by editing the required XML file section in RibbonX, e.g. `imageMso="NewOfficeIconName"` 
 
-Custom icons can also be added from RibbonX. 
-`image="MyPrivateIconName"` 
+#### 3. Custom Icons
 
+Custom icons can also be added from RibbonX. Use the **Insert > Icons** menu option to add a new icon to the document. 
 
-... (Microsoft commandbars.getimage link to add) ...
+Ribbon Custom icons can be changed by editing the required XML file section in RibbonX, e.g. `image="MyPrivateIconName"` 
 
-
-The following image filetypes are can be used. Image size should be between 16*16 to 128 to 128 *(check this before commit)*
+The following image filetypes are can be used. Image size should be between 16*16 to 128*128 
 
  .bmp  
  .gif   
  .jpg  
  .png  
 
+Check online for futher information on supported icon types and sizes for your Office version.
 
 #### VBA Development
 
