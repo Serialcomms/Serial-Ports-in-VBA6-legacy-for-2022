@@ -18,6 +18,8 @@ A list of icons included with Office is available here [Microsoft Office Icon Ga
 
 Further information can be found online by searching for *msoImage*
 
+Ribbon icons can be changed by editing the required XML file section in RibbonX, e.g. `imageMso="NewIconName"` 
+
 Custom icons can also be added, ... (Microsoft commandbars.getimage link to add) ...
 The following image filetypes are can be used. Image size should be between 16*16 to 128 to 128 *(check this before commit)*
 
