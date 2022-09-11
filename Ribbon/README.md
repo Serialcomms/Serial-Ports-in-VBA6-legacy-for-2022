@@ -8,7 +8,7 @@ Download and install RibbonX following the instructions provided with it.
 
 Download the file RIBBON_2007.xml from this folder in preparation for use.  
 
-Follow the HowTo instructions to install the sample XML customisation file.
+Follow the [HowTo](How-To.md) instructions to install the sample XML customisation file.
 
 #### Office Icons
 
