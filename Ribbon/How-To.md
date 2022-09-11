@@ -1,5 +1,7 @@
 # Ribbon Customisation
 
+## Using the RibbonX Editor
+
 1. Close all Office documents before continuing.
 2. Open the required Office document in the RibbonX Editor.
 3. Confirm that the document name appears on the left hand side.
