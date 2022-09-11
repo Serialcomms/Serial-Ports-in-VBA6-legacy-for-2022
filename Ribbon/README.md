@@ -37,6 +37,6 @@ Check online for further information on supported icon types and sizes for your 
 
 #### VBA Development
 
-Further VBA development is required to make the document suitable for your usage. 
+Further VBA development is required to make the final document suitable for your application.  
 
 
