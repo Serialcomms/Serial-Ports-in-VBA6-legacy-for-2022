@@ -1,6 +1,6 @@
 ## Ribbon Customisation
 
-#### 1. Adding custom Ribbon tabs and commands
+#### Adding custom Ribbon tabs and commands
 
 <details><summary>Ribbon Editor</summary>
 <p>
@@ -19,15 +19,22 @@ Follow the [HowTo](How-To.md) instructions to install the RIBBON_2007.xml sample
 </details>
  
 
-#### 2. Office Icons
+#### Adding Office and Custom Ribbon icons
+
+<details><summary>Using Office Icons</summary>
+<p>
 
 A list of icons included with Office is available here [Microsoft Office Icon Gallery Download](https://www.microsoft.com/en-nz/download/confirmation.aspx?id=21103)
 
 Further information can be found online by searching for *msoImage*
 
 Ribbon Office icons can be changed by editing the required XML file section in RibbonX, e.g. `imageMso="NewOfficeIconName"` 
+ 
+</p>
+</details> 
 
-#### 3. Custom Icons
+<details><summary>Using Custom Icons</summary>
+<p>
 
 Custom icons can also be added from RibbonX. Use the **Insert > Icons** menu option to add a new icon to the document. 
 
@@ -41,6 +48,10 @@ The following image filetypes are can be used. Image size should be between 16 x
  .png  
 
 Check online for further information on supported icon types and sizes for your Office version.
+ 
+</p>
+</details> 
+
 
 #### VBA Development
 
