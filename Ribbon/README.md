@@ -28,13 +28,9 @@ The following image filetypes are can be used. Image size should be between 16*1
  .jpg  
  .png  
 
-#### Ribbon Examples
-
-Examples are provided in module SERIAL_RIBBON.bas showing how to call functions from the Ribbon.
-
 
 #### VBA Development
 
-Further VBA development is required to ...
+Further VBA development is required to make the document suitable for your usage. 
 
 
