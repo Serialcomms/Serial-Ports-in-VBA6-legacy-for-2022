@@ -2,6 +2,9 @@
 
 #### 1. Adding custom Ribbon tabs and commands
 
+<details><summary>Ribbon Editor</summary>
+<p>
+
 The [Office RibbonX Editor](https://github.com/fernandreu/office-ribbonx-editor/releases/tag/v1.9.0) is recommended for Ribbon customisation.  
 
 Download and install RibbonX following the instructions provided with it.  
@@ -11,6 +14,10 @@ Download the file RIBBON_2007.xml from this folder in preparation for use.
 Prepare a document by installing and testing module SERIAL_PORT_VBA first. 
 
 Follow the [HowTo](How-To.md) instructions to install the RIBBON_2007.xml sample customisation file.
+
+</p>
+</details>
+ 
 
 #### 2. Office Icons
 
