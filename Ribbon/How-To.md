@@ -10,9 +10,9 @@
 6. Copy-and-paste contents of file **RIBBON_2007.xml** into the empty area on the right.
 7. Click on **Validate** from the RibbonX editor.
 8. Confirm the **Custom XML UI is well formed** message box.
-9. Click Save from the RibbonX editor menu
-10. Close the RibbonX editor
-11. Re-open the Office document
+9. Click **Save** from the RibbonX editor menu
+10. **Close** the RibbonX editor
+11. Re-open the Office document as normal
 12. Confirm that a new tab **COM 1** is present in the document ribbon menu.
 13. Confirm that the new tab contains icons similar to the image in this folder.
 14. 
