@@ -1,6 +1,8 @@
 ## Ribbon Customisation
 
-Adding custom Ribbon tabs and commands requires the use of a custom editor such as ...
+#### Adding custom Ribbon tabs and commands
+
+The [Office RibbonX Editor](https://github.com/fernandreu/office-ribbonx-editor/releases/tag/v1.9.0) is recommended for Ribbon customisation.
 
 #### Office Icons
 
