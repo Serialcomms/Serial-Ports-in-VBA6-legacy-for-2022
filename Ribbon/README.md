@@ -26,7 +26,7 @@ Custom icons can also be added from RibbonX. Use the **Insert > Icons** menu opt
 
 Ribbon Custom icons can be changed by editing the required XML file section in RibbonX, e.g. `image="MyPrivateIconName"` 
 
-The following image filetypes are can be used. Image size should be between 16*16 to 128*128 
+The following image filetypes are can be used. Image size should be between 16 x 16 to 128 x 128 
 
  .bmp  
  .gif   
