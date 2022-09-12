@@ -11,7 +11,7 @@ Steps to customise the Ribbon in Access only are summarised below
 6. Update the new row by copying contents of file `RIBBON_ACCESS.xml` into column RibbonXml
 7. Save, Close and Re-Open the Access document
 8. Navigate to File > Options > Current Database > Ribbon and Toolbar Options > Ribbon Name
-9. Select COM_1 and click OK
+9. Select **COM_1** and click OK
 10. Save, Close and Re-Open the Access document again
 11. Check that a new Ribbon tab COM Port 1 is now present
 12. 
