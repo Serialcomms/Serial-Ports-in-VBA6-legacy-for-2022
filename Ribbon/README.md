@@ -1,8 +1,8 @@
-## Ribbon Customisation (Word and Excel)
+## Ribbon Customisation
 
 #### Adding custom Ribbon tabs and commands
 
-<details><summary>Ribbon Editor</summary>
+<details><summary>Ribbon Editor (Word and Excel)</summary>
 <p>
 
 The [Office RibbonX Editor](https://github.com/fernandreu/office-ribbonx-editor/releases/tag/v1.9.0) is recommended for Ribbon customisation.  
@@ -15,7 +15,19 @@ Follow the [instructions](How-To.md) to install the `RIBBON_2007.xml` sample cus
 
 </p>
 </details>
+
+
+<details><summary>Ribbon Customisation (Access only)</summary>
+<p>
  
+The RibbonX Editor should not be used to modify the Access Ribbon.
+ 
+Instead, follow the [Microsoft instructions here](https://support.microsoft.com/en-us/office/create-a-custom-ribbon-in-access-45e110b9-531c-46ed-ab3a-4e25bc9413de)
+to create a custom Ribbon in Access.  
+ 
+</p>
+</details>
+
 
 #### Adding Office and Custom Ribbon icons
 
