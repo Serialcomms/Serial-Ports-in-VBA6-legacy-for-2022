@@ -94,10 +94,7 @@ Office 2007 XML and SERIAL_PORT_RIBBON.bas example files are available in the Ri
    
 <details><summary>Function List</summary>
 <p>   
-   
-<details><summary>Function List</summary>
-<p>   
-
+  
 [COM Port Control](Functions/Function_List_Control.md)
    
 [Read/Write/Check Data](Functions/Function_List_Data.md)
@@ -107,9 +104,7 @@ Office 2007 XML and SERIAL_PORT_RIBBON.bas example files are available in the Ri
 [Show Functions](Functions/Function_List_Show.md)
 
 Private functions are not intended to be called directly by users.
-  
-</p>
-</details>   
+
    
  </p>
 </details>   
