@@ -20,10 +20,10 @@ Follow the [instructions](How-To.md) to install the `RIBBON_2007.xml` sample cus
 <details><summary>Ribbon Customisation (Access only)</summary>
 <p>
  
-The RibbonX Editor should not be used to modify the Access Ribbon.
+The RibbonX Editor should **not** be used to modify the Ribbon in Access documents. 
  
-Instead, read the Microsoft instructions [here](https://support.microsoft.com/en-us/office/create-a-custom-ribbon-in-access-45e110b9-531c-46ed-ab3a-4e25bc9413de) and [here](https://docs.microsoft.com/en-us/office/client-developer/access/desktop-database-reference/how-to-apply-a-custom-ribbon-when-starting-access)
-to create and apply custom Ribbons in Access. 
+Instead, Microsoft instructions [here](https://support.microsoft.com/en-us/office/create-a-custom-ribbon-in-access-45e110b9-531c-46ed-ab3a-4e25bc9413de) and [here](https://docs.microsoft.com/en-us/office/client-developer/access/desktop-database-reference/how-to-apply-a-custom-ribbon-when-starting-access)
+detail how to create and apply custom Ribbons in Access. 
 
 Local instruction summary [here](README_ACCESS.md) 
  
