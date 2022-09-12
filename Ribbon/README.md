@@ -57,6 +57,6 @@ Check online for further information on supported icon types and sizes for your 
 
 #### Application Development
 
-Further VBA and Ribbon XML development is required to make the final document suitable for your use.  
+Further VBA and Ribbon XML development is required to make the final document suitable for your bespoke use.  
 
 
