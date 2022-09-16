@@ -90,7 +90,7 @@ Private Const HEX_C000 As Long = &HC000
 
 Private Const TEXT_ON As String = "On"              ' some text string constants for minor gains.
 Private Const TEXT_MS As String = " mS"
-Private Const TEXT_US As String = " µS"
+Private Const TEXT_US As String = " ÂµS"
 Private Const TEXT_TO As String = " To "
 Private Const TEXT_OFF As String = "Off"
 Private Const TEXT_TRUE As String = "True"
@@ -1582,13 +1582,16 @@ If Port_Valid Then Port_Debug = COM_PORT(Port_Number).Debug
 '-----------------------------------------------------------------------
 
 Dim Read_Byte_Count As Long
-Dim Get_Character As String * LONG_1               ' must be fixed length 1
+Dim Get_Character As String
+Dim Read_Buffer As String * LONG_1  ' must be fixed length 1
 
 If Port_Valid Then
 
     If Port_Started(Port_Number) Then
 
-        Synchronous_Read COM_PORT(Port_Number).Handle, Get_Character, LONG_1, Read_Byte_Count
+        Synchronous_Read COM_PORT(Port_Number).Handle, Read_Buffer, LONG_1, Read_Byte_Count
+                                                                                                                                                    
+        If Read_Byte_Count = LONG_1 Then Get_Character = Read_Buffer                                                                                                                                            
       
     Else
 
